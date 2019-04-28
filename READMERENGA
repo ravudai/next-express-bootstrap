@@ -1,0 +1,35 @@
+$ npm init -y
+$ npm install --save react react-dom next
+$ git add -A
+$ git commit -m "initial checking"
+
+<add script in the  package.json>
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+    </add>
+
+$ git push
+$ git log --summary
+$ git diff [source branch] [target branch]
+$ npm run dev
+
+<create index.js and export it>
+<create about.js and export it>
+
+<go through - https://nextjs.org/learn/basics/>
+
+$ npm install --save express
+$ npm install --save isomorphic-unfetch
+$ npm install --save react-markdown
+$ npm install --save @zeit/next-less less
+$ npm install --save bootstrap-less
+$ npm install --save gulp
+$ npm install --save gulp-less
+$ npm install --save gulp-pipe
+$ npm install less --save-dev
+$ npm install less --save-dev
+$ npm install --save-dev less-loader less
+$ npm install --save extract-text-webpack-plugin webpack
+$ npm install --save @zeit/next-sass node-sass
+$ npm install --save bootstrap
